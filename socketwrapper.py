@@ -33,7 +33,7 @@ class SocketWrapper:
     def connectToServer(self):
         self.socket.connect((self.host_name, self.port_number))
 
-    #utilizes an end of marker to denote the end of a message
+    #Utilizes an end of marker to denote the end of a message. Looping over a receive is usually needed for TCP.
     def recieveData(self):
         all_data = []
         while True:
