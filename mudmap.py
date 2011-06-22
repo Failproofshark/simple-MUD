@@ -21,7 +21,7 @@ the fluorescent lighting above only lends to the medical lab atmosphere.
                 'gr':MudRoom('Green Room',
                                 '''You sheild your eyes from the
 blindingly bright lime green walls. You
-wounder to yourself who whould paint
+wonder to yourself who would paint
 their walls such an eye-straining
 color...''',
                                 ['lime', 'cup'],
